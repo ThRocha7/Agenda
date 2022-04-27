@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Agenda de Contatos</title>
+</head>
+
+<body id="bodyy">
+    <h1>Seus contatos:</h1>
+    <div id="res">
+        contato
+    </div>
+
+    <div id="btn" onclick="add()">
+        Adicionar contato
+    </div>
+
+    <div id="modal">
+        <p id="p1">
+            Insira o nome:  <input type="text" name="txtn" id="txtnome">
+        </p>
+        <p>
+            Insira a data de nascimento: <input type="date" name="datet" id="txtdate">
+        </p>
+        <p>
+            Insira o número de celular: <input type="tel" name="tel" id="txttel">
+        </p>
+        <div id="btn2" onclick="concluir()">
+            <p>Adicionar</p>
+        </div>
+    </div>
+    
+    <script src="agenda.js"></script>
+</body>
+</html>

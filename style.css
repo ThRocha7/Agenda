@@ -1,0 +1,49 @@
+#bodyy{
+    background: rgb(248, 239, 227); 
+} 
+
+#btn{
+    padding: 10px;
+    background: violet;
+    border-radius: 5px;
+    color:   rgb(248, 239, 227);
+    display: inline-block;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background: white;
+    color: violet;
+}
+
+#modal{
+    width: 500px;
+    height: 500px;
+    background:white;
+    border-radius: 15px;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    animation: animate;
+    animation-duration: 800ms; 
+}
+
+@keyframes animate{
+    from{opacity:1;}
+    from{opacity:0;}
+}
+
+#btn2{
+    background: rgb(248, 239, 227);;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.499);
+}
+
